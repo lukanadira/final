@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "37854610603",
+    "project_id": "soccer-quiz-e47a5",
+    "storage_bucket": "soccer-quiz-e47a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37854610603:android:7d1cbef9b29bfd5105e3ee",
+        "android_client_info": {
+          "package_name": "com.example.soccerquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37854610603-otq7rbt2tv29ldlap40e6rs237ui644f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxXvewf4CNvLXUjmgxmEHJ_Ew0fFRgIak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37854610603-otq7rbt2tv29ldlap40e6rs237ui644f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

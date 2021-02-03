@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/navigation_barcelona"
+        android:icon="@drawable/ic_barcelona"
+        android:title="Barcelona"/>
+
+    <item
+        android:id="@+id/navigation_realmadrid"
+        android:icon="@drawable/ic_real_madrid"
+        android:title="Real madrid"/>
+
+    <item
+        android:id="@+id/navigation_juventus"
+        android:icon="@drawable/juventus_icon"
+        android:title="Juventus"/>
+
+    <item
+        android:id="@+id/navigation_dinamotbillisi"
+        android:icon="@drawable/ic_dinamo"
+        android:title="Dinamo tbillisi"/>
+
+</menu>
