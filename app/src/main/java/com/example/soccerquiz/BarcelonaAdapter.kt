@@ -7,7 +7,7 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
-class BarcelonaAdapter(private val images: List<Barcelona_images>): RecyclerView.Adapter<BarcelonaAdapter.ImageViewHolder>() {
+class BarcelonaAdapter(private val images: List<barcelona_images>): RecyclerView.Adapter<BarcelonaAdapter.ImageViewHolder>() {
 
     class ImageViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
 
@@ -16,7 +16,7 @@ class BarcelonaAdapter(private val images: List<Barcelona_images>): RecyclerView
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ImageViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.activity_barcelonaimages, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.barcelona_images, parent, false)
         return  ImageViewHolder(view)
     }
 

@@ -20,9 +20,6 @@
         android:icon="@drawable/juventus_icon"
         android:title="Juventus"/>
 
-    <item
-        android:id="@+id/navigation_dinamotbillisi"
-        android:icon="@drawable/ic_dinamo"
-        android:title="Dinamo tbillisi"/>
+
 
 </menu>

@@ -4,17 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/stadium"
     tools:context=".AuthenticationActivity">
 
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="415dp"
-        android:layout_height="750dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/stadium"/>
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -35,7 +27,7 @@
             android:ems="10"
             android:textColor="@color/black"
             android:hint="Email"
-            android:textColorHint="@color/black"
+            android:textColorHint="#504F4F"
             android:inputType="textEmailAddress" />
 
         <EditText
@@ -45,7 +37,7 @@
             android:layout_marginTop="10dp"
             android:textColor="@color/black"
             android:ems="10"
-            android:textColorHint="@color/black"
+            android:textColorHint="#504F4F"
             android:hint="Password"
             android:inputType="textPassword" />
 
@@ -127,7 +119,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageButton"
         app:layout_constraintVertical_bias="0.506" />
 
 

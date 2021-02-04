@@ -13,13 +13,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".MadridrecyclerActivity"></activity>
+        <activity android:name=".JuventusrecyclerActivity"></activity>
+        <activity android:name=".Juventusimages" />
+        <activity android:name=".QuizQuestionsActivity" />
+        <activity android:name=".QuizQuestionsActivity1" />
+        <activity android:name=".MadridrecyclerActivity" />
         <activity android:name=".Madridimages" />
-        <activity android:name=".MadridActivity" />
         <activity android:name=".Barcelonaimages" />
+        <activity android:name=".ForgotPassActivity" />
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".BarcelonarecyclerActivity" />
-        <activity android:name=".BarcelonaActivity" />
-        <activity android:name=".HomeActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".AuthenticationActivity">
             <intent-filter>

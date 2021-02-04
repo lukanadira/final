@@ -7,7 +7,7 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
-class MadridAdapter (private val images: List<madrid_images>): RecyclerView.Adapter<MadridAdapter.ImageViewHolder>() {
+class JuventusAdapter(private val images: List<juventus_images>): RecyclerView.Adapter<JuventusAdapter.ImageViewHolder>() {
 
     class ImageViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
 
@@ -16,8 +16,8 @@ class MadridAdapter (private val images: List<madrid_images>): RecyclerView.Adap
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ImageViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.madrid_images, parent, false)
-        return ImageViewHolder(view)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.juventus_images, parent, false)
+        return  ImageViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: ImageViewHolder, position: Int) {
@@ -30,5 +30,3 @@ class MadridAdapter (private val images: List<madrid_images>): RecyclerView.Adap
 
     override fun getItemCount(): Int = images.size
 }
-
-

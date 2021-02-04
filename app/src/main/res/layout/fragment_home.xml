@@ -3,9 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context=".HomeActivity">
+    android:background="@drawable/man"
+    android:layout_height="match_parent">
+
+
 
     <Button
         android:id="@+id/Logoutbutton"
@@ -16,7 +17,7 @@
         android:layout_marginBottom="50dp"
         android:text="გასვლა"
         android:textSize="18sp"
-        android:backgroundTint="#30AA1A"
+        android:backgroundTint="#A9DC0C0C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -29,7 +30,6 @@
         android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="Name"
-        android:textColorHint="@color/black"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -42,7 +42,6 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Url"
-        android:textColorHint="@color/black"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PersonName" />
@@ -55,7 +54,7 @@
         android:layout_marginTop="32dp"
         android:text="შენახვა"
         android:textSize="18sp"
-        android:backgroundTint="#30AA1A"
+        android:backgroundTint="#A9DC0C0C"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PersonUrl" />
 
@@ -77,8 +76,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text=""
-        android:textColor="@color/black"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

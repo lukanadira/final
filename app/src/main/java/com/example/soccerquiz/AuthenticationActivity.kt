@@ -40,10 +40,18 @@ class AuthenticationActivity : AppCompatActivity() {
         donthaveacount = findViewById(R.id.DonthaveacountView)
         register = findViewById(R.id.RegisterView)
 
+        register.setOnClickListener{
+            startActivity(Intent(this, RegisterActivity::class.java))
+        }
+
+        Forgotpassword.setOnClickListener{
+            startActivity(Intent(this, ForgotPassActivity::class.java))
+        }
+
         Login.setOnClickListener {
 
-            val email = inputEmail.toString()
-            val password = inputpassword.toString()
+            val email = inputEmail.text.toString()
+            val password = inputpassword.text.toString()
             if (email.isEmpty() || password.isEmpty()) {
                 Toast.makeText(this, "ერთერთი ველი ცარიელია!", Toast.LENGTH_SHORT).show()
             } else {

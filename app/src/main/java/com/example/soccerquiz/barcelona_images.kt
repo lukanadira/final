@@ -1,5 +1,5 @@
 package com.example.soccerquiz
 
-data class Barcelona_images  (
+data class barcelona_images  (
     val link: String = ""
 )

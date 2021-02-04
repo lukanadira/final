@@ -14,26 +14,22 @@
     <fragment
         android:id="@+id/navigation_barcelona"
         android:name="com.example.soccerquiz.fragments.BarcelonaFragment"
-        tools:layout="@layout/fragment_home"
+        tools:layout="@layout/fragment_barcelona"
         android:label="BarcelonaFragment" />
 
     <fragment
         android:id="@+id/navigation_realmadrid"
         android:name="com.example.soccerquiz.fragments.RealmadridFragment"
-        tools:layout="@layout/fragment_home"
+        tools:layout="@layout/fragment_realmadrid"
         android:label="HomeFragment" />
 
     <fragment
         android:id="@+id/navigation_juventus"
         android:name="com.example.soccerquiz.fragments.JuventusFragment"
-        tools:layout="@layout/fragment_home"
+        tools:layout="@layout/fragment_juventus"
         android:label="JuventusFragment" />
 
-    <fragment
-        android:id="@+id/navigation_dinamotbillisi"
-        android:name="com.example.soccerquiz.fragments.DinamotbillisiFragment"
-        tools:layout="@layout/fragment_home"
-        android:label="DinamotbillisiFragment" />
+
 
 
 </navigation>
